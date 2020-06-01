@@ -35,6 +35,6 @@ plt.ylabel('人数', fontproperties=my_font)
 plt.title('美国2019-nCov疫情情况', fontproperties=my_font)
 plt.gca().xaxis.set_major_locator(plt.MultipleLocator(7))
 
-# 显示统计图
+# 保存并显示统计图
 plt.savefig('results/images/AmericaNCovData.png')
 plt.show()
